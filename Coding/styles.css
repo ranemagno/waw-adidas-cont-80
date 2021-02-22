@@ -17,13 +17,19 @@ img {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 2% 3% 0 3%;
+  padding: 2.5% 3% 2% 3%;
 }
 
 li {
-  font-size: 1.5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   display: inline;
   margin: 0 7% 0 7%;
+}
+#adidasLogo {
+  margin-left: 1%;
+  width: 8%;
+  float: left;
 }
 
 /* landing page */
@@ -31,19 +37,33 @@ main {
   width: 90%;
   height: 80vh;
   margin: auto;
-  background-color: pink;
+  position: relative;
+  /* background-color: pink; */
 }
 h1 {
-  padding-top: 10%;
+  position: absolute;
+  top: 5%;
+  font-size: 5vw;
+  font-family: 'Libre Franklin', sans-serif;
 }
-.prodDescription {
-  width: 40%;
+h2 {
+  position: absolute;
+  top: 25%;
+}
+.prod-description {
+  width: 30%;
   height: 100px;
-  padding: 1% 0 0 1%
+  padding: 1% 0 0 1%;
+  position: absolute;
+  top: 35%;
 }
 #imageBanner {
   float: right;
   width: 65%;
   margin: 0;
   padding: 0;
+}
+#cta {
+  position: absolute;
+  bottom: 40%;
 }
